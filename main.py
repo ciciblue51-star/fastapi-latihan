@@ -13,3 +13,4 @@ def get_student(student_id: int):
 @app.get("/search")
 def search(keyword: str, limit: int = 10):
     return {"keyword": keyword, "limit": limit}
+
